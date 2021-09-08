@@ -22,4 +22,3 @@ Route::get( '/home', [ TodoController::class, 'getTodos' ]);
 Route::get( 'delete/{id}', [ TodoController::class, 'deleteTodo' ]);
 Route::get( 'edit/{id}', [ TodoController::class, 'showTodo' ]);
 Route::post( '/edit', [ TodoController::class, 'editTodo' ]);
-//megjegyzés
